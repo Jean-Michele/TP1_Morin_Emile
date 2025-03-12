@@ -11,13 +11,15 @@ public class nuage : MonoBehaviour
     void OnTriggerEnter(){
     if (gameObject.tag == "Untagged"){
             _Tempete.SetActive(true);
-            Destroy(_Nuage);
+            Debug.Log("a");
             Invoke("disparaitre", 3.0f);
+            Destroy(_Nuage);
         }
     }
 
     void disparaitre()
     {
         _Tempete.SetActive(false);
+        Debug.Log("b");
     }
 }
