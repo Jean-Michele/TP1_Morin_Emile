@@ -13,7 +13,7 @@ public class nuage : MonoBehaviour
             _Tempete.SetActive(true);
             Debug.Log("a");
             Invoke("disparaitre", 3.0f);
-            Destroy(_Nuage);
+            _Nuage.SetActive(false);
         }
     }
 
