@@ -5,10 +5,9 @@ using UnityEngine;
 public class destroySnowball : MonoBehaviour
 {
 
-
-    void OnTriggerEnter(){
-    if (gameObject.tag == "SnowBall"){
-            gameObject.SetActive(false);
-        }
+void OnTriggerEnter(Collider other){
+    if (other.gameObject.CompareTag("SnowBall")) {
+        Destroy(other.gameObject);
     }
+}
 }
