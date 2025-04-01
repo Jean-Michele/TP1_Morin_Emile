@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 1205184380524165036}
   - component: {fileID: 5380021428252650204}
   - component: {fileID: 6881255695482223948}
-  - component: {fileID: 4472189635317997075}
   - component: {fileID: 1974331312700370179}
   m_Layer: 0
   m_Name: SnowBall
@@ -129,19 +128,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4472189635317997075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2177550747507784181}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4371fb5a4fb84ed4eba37af01746e258, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _Tracteur: {fileID: 0}
 --- !u!54 &1974331312700370179
 Rigidbody:
   m_ObjectHideFlags: 0

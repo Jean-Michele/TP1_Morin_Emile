@@ -9,7 +9,7 @@ public class nuage : MonoBehaviour
     // Start is called before the first frame update
 
     void OnTriggerEnter(){
-    if (gameObject.tag == "Tracteur"){
+    if (gameObject.tag == "Untagged"){
             _Tempete.SetActive(true);
             Debug.Log("a");
             Invoke("disparaitre", 3.0f);
