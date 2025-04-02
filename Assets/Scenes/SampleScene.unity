@@ -1165,7 +1165,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pointage: {fileID: 955761722}
-  pointageJeu: 0
 --- !u!1 &73921724
 GameObject:
   m_ObjectHideFlags: 0
@@ -17862,7 +17861,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7389108423164279567, guid: d4d1b3a127ab6d344812a3dd817c97d3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.6
+      value: -23.5
       objectReference: {fileID: 0}
     - target: {fileID: 7389108423164279567, guid: d4d1b3a127ab6d344812a3dd817c97d3, type: 3}
       propertyPath: m_LocalPosition.y

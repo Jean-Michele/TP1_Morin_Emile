@@ -8,11 +8,11 @@ public class Pointage : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _pointage;
 
-    public int pointageJeu = 0;
+    public static int pointageJeu = 0;
 
     void Start()
     {
-        pointageJeu = 1000;
+        Pointage.pointageJeu = 1000;
         InvokeRepeating("pointage", 0f, 1f);
     }
 
