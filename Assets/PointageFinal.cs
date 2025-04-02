@@ -6,7 +6,7 @@ using TMPro;
 public class PointageFinal : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _pointage;
-    public int pointageFinal = Pointage.pointageJeu;
+    private int pointageFinal = Pointage.pointageJeu;
     void Start()
     {
         _pointage.text = "SCORE: " + pointageFinal.ToString();

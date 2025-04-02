@@ -8,7 +8,7 @@ public class Pointage : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _pointage;
 
-    public static int pointageJeu = 0;
+    public static int pointageJeu;
 
     void Start()
     {

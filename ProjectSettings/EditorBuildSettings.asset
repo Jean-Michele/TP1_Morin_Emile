@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/R\xE9ussi.unity"
     guid: 2d21900dcceab494b8e87b9fae3f101e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Dernier.unity
     guid: 80974394d4aa99b4eafdf29e2b72e412
   m_configObjects: {}
