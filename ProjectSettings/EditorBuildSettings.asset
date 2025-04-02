@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 1f9562a007cc20948885876fdee7b42f
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Rally.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Failed.unity
+    path: "Assets/Scenes/\xC9chou\xE9.unity"
     guid: 289d4d50a34883b4d9de88797f157883
   - enabled: 1
-    path: Assets/Scenes/Success.unity
+    path: "Assets/Scenes/R\xE9ussi.unity"
     guid: 2d21900dcceab494b8e87b9fae3f101e
   - enabled: 1
     path: Assets/Scenes/Dernier.unity
